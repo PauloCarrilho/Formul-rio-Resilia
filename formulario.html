@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="shortcut icon" href="icon.jpeg">
+</head>
+<body>
+    <header>
+        <h1>RESILIA</h1>
+    </header>
+    <h2><u>Parabéns!!</u>🥳🎉 Você foi aprovado para próxima etapa na seleção do curso Web Dev da
+    <a href="https://www.resilia.work/"><img src="resiliaa.png" alt="erro"></a></h2>
+    <br>
+    <h2>Preencha os dados abaixo!</h2>
+    <div class="content">
+
+    <form action="">
+       
+        <fieldset>
+            <h1 class="cad">Formulário de Cadastro</h1>
+            <div
+             class="row"
+            >
+                <label for="nome">Nome</label>
+                <input 
+                type="text" 
+                id="nome" 
+                name="nome"
+                placeholder="Digite seu nome completo"
+                autocomplete="off"
+                required
+                >
+            </div>
+            <div
+             class="row"
+            >
+                <label for="email">E-mail</label>
+                <input 
+                type="email" 
+                id="email" 
+                name="email"
+                placeholder="Digite seu e-mail"
+                autocomplete="off"
+                required
+                >
+            </div>
+            <div 
+             class="row"
+            >
+                <label for="telefone">Telefone</label>
+                <input 
+                type="tel"
+                id="telefone" 
+                name="telefone"
+                placeholder="Telefone"
+                required
+            >
+            </div>
+            <div class="row">
+                <label for="dtNasc">Data de nascimento</label>
+                <input type="date" id="dtNasc" name="dtNasc">
+            </div>
+            <div class="buttons">
+                <input type="submit">
+                <input type="reset" value="Limpar">
+            </div>
+        </fieldset>
+    </form>
+</div>
+
+<span style="float:right;
+  margin-right: 10px;
+  margin-top: 340px;
+  font-size: x-small; ">
+    Formulário - Copyright &copy; 2021 Paulo Carrilho. Todos os direitos reservados
+  </span>        
+</body>
+<style>
+    body {
+        background-color: black;
+        min-height: 100%vh;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 100%;
+        line-height: 1;
+    }
+    .content {
+        margin: 20px auto 0 auto;
+        width: 720px;
+        padding: 20px;
+        color: white;
+    }
+    .row {
+        padding: 7px;
+        width: 100%;
+    }
+    .buttons {
+        text-align: center;
+        margin-top: 8px;
+    }
+    .texto {
+        color: white;
+    }
+    p {
+        font-size: xx-large;
+    }
+    h2 {
+        color: white;
+        text-align: center;
+    }
+    h1 {
+        background-color: yellow;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 30px;
+    }
+    label {
+        display: block;
+    }
+    input {
+        width: inherit;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    .cad {
+        border-radius: 20px;
+        color: black;
+    }
+    form {
+        padding: 50px;
+        height: 50px;
+    }
+    fieldset {
+        padding: 10px;
+        border-radius: 20px;
+        width: 100%;
+        height: 470px;
+        margin-top: -70px;
+    }
+    img {
+        margin-bottom: -15px;
+    }
+    span {
+        color: white;
+    }
+</style>
+</html>
